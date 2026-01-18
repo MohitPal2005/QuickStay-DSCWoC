@@ -1,0 +1,54 @@
+.auth-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: var(--card-bg, #111);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth-form input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #000;
+  color: #fff;
+}
+
+.auth-form button {
+  padding: 12px;
+  border-radius: 8px;
+  background: #4f46e5;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.oauth {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+}
+
+.oauth.google {
+  border-color: #ea4335;
+}
+
+.oauth.linkedin {
+  border-color: #0a66c2;
+}
+
+.auth-footer {
+  margin-top: 1rem;
+  font-size: 14px;
+}
